@@ -4,6 +4,8 @@
     {# include our meta tags #}
     {% include "components/meta.njk" %}
 
+<!--     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+ -->
     {# include main.css in development mode #}
     {% if helpers.environment == "development" %}
     <link rel="stylesheet" href="/css/main.css">
@@ -31,9 +33,9 @@
 
     {# include scripts #}
     {% if helpers.environment == "development" %}
-    <script src="/javascript/main.js"></script>
+    <!-- <script src="/javascript/main.js"></script> -->
     {% else %}
-    <script src="/javascript/main.min.js"></script>
+    <!-- <script src="/javascript/main.min.js"></script> -->
     {% endif %}
 
 </body>
