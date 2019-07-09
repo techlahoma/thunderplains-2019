@@ -17,7 +17,6 @@
 		"@babel/core": "^7.2.0",
 		"@babel/preset-env": "^7.3.1",
 		"@fullhuman/postcss-purgecss": "^1.1.0",
-		"eleventy-plugin-yamldata": "0.1.1",
 		"gulp": "^3.9.1",
 		"gulp-babel": "^8.0.0",
 		"gulp-clean-css": "^3.10.0",
