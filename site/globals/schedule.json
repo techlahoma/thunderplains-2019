@@ -1,0 +1,157 @@
+[
+  {
+    "start_time": "8:00am",
+    "full": {
+      "title": "Registration & Coffee"
+    }
+  },
+  {
+    "start_time": "8:45am",
+    "full": {
+      "title": "The State of Node Core",
+      "speaker": {
+        "name": "Colin Ihrig",
+        "twitter": "cjihrig"
+      }
+    }
+  },
+  {
+    "start_time": "9:30am",
+    "track_a": {
+      "title": "Delicious JavaScript: Delectable Explanations of the Power of JS",
+      "speaker": {
+        "name": "Adrienne Tacke",
+        "twitter": "adriennetacke"
+      }
+    },
+    "track_b": {
+      "title": "Kubernetes for Developers",
+      "speaker": {
+        "name": "Jeff French",
+        "twitter": "jeff_french"
+      }
+    }
+  },
+  {
+    "start_time": "10:20am",
+    "track_a": {
+      "title": "Off The Hook - React Hooks",
+      "speaker": {
+        "name": "Logan Huskins",
+        "twitter": "logan_huskins"
+      }
+    },
+    "track_b": {
+      "title": "Let's Get JAMming: Static Site Generators",
+      "speaker": {
+        "name": "Dennis Stepp",
+        "twitter": null
+      }
+    }
+  },
+  {
+    "start_time": "10:20am",
+    "track_a": {
+      "title": "Authentication for the REST of us",
+      "speaker": {
+        "name": "Divya Sasidharan",
+        "twitter": null
+      }
+    },
+    "track_b": {
+      "title": "The Mentor Playbook",
+      "speaker": {
+        "name": "Gabi Dombrowski",
+        "twitter": null
+      }
+    }
+  },
+  {
+    "start_time": "12:00pm",
+    "full": {
+      "title": "Lunch"
+    }
+  },
+  {
+    "start_time": "1:30pm",
+    "track_a": {
+      "title": "Going Beyond Progressive Web Apps With Service Workers",
+      "speaker": {
+        "name": "Trent Willis",
+        "twitter": null
+      }
+    },
+    "track_b": {
+      "title": "Gaining Control with the Web Animations API",
+      "speaker": {
+        "name": "Daniel Wilson",
+        "twitter": null
+      }
+    }
+  },
+  {
+    "start_time": "2:20pm",
+    "track_a": {
+      "title": "State Machines",
+      "speaker": {
+        "name": "Gerardo Gonzalez",
+        "twitter": null
+      }
+    },
+    "track_b": {
+      "title": "Web Audio Made Easy with Howler.js",
+      "speaker": {
+        "name": "James Simpson",
+        "twitter": null
+      }
+    }
+  },
+  {
+    "start_time": "3:10pm",
+    "full": {
+      "title": "Snack Break"
+    }
+  },
+  {
+    "start_time": "3:40pm",
+    "track_a": {
+      "title": "Empathetic Design Systems",
+      "speaker": {
+        "name": "Jennifer Wong",
+        "twitter": null
+      }
+    },
+    "track_b": {
+      "title": "Lightning Talks"
+    }
+  },
+  {
+    "start_time": "4:30pm",
+    "track_a": {
+      "title": "A Crash Course on Worker Threads",
+      "speaker": {
+        "name": "Rich Trott",
+        "twitter": null
+      }
+    },
+    "track_b": {
+      "title": "Lightning Talks"
+    }
+  },
+  {
+    "start_time": "5:30pm",
+    "full": {
+      "title": "500 BC to Quantum Computing",
+      "speaker": {
+        "name": "Luke Crouch",
+        "twitter": null
+      }
+    }
+  },
+  {
+    "start_time": "6:00pm",
+    "full": {
+      "title": "Afterparty"
+    }
+  }
+]

@@ -1,7 +1,6 @@
-const htmlmin = require("html-minifier")
+const htmlmin = require("html-minifier");
 
 module.exports = eleventyConfig => {
-
     // Add a readable date formatter filter to Nunjucks
     eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
 
@@ -22,9 +21,9 @@ module.exports = eleventyConfig => {
     })
 
     // Collections
-    eleventyConfig.addCollection('blog', collection => {
-        return collection.getFilteredByTag('blog').reverse()
-    })
+    // eleventyConfig.addCollection('blog', collection => {
+    //     return collection.getFilteredByTag('blog').reverse()
+    // })
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
