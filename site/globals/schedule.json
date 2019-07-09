@@ -141,7 +141,11 @@
   {
     "start_time": "5:30pm",
     "full": {
-      "title": "500 BC to Quantum Computing"
+      "title": "500 BC to Quantum Computing",
+      "speaker": {
+        "name": "Luke Crouch",
+        "twitter": null
+      }
     }
   },
   {
