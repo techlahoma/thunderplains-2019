@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
 </head>
 
-<body {% if body_class %} id="{{ body_class }}"{% endif %} class="min-h-full font-sans text-lg text-purple-darkest leading-normal">
+<body {% if body_class %} id="{{ body_class }}"{% endif %} class="min-h-full font-sans text-lg text-purple-darkest bg-grey-lightest leading-normal">
 
     <div id="wrapper" class="wrapper flex flex-col relative min-h-screen">
 
@@ -29,6 +29,7 @@
         {{ content | safe }}
 
         {# include footer #}
+        {% include "components/footer.njk" %}
     </div>
 
     {# include scripts #}

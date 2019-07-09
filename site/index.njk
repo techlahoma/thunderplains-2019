@@ -1,8 +1,59 @@
 ---
 layout: default
-meta_title: Home
-meta_description: Homepage description
+meta_title: ThunderPlains 2019
+meta_description: Oklahoma City developer conference focusing on web technologies
 body_class: home
 title: ThunderPlains 2019
 ---
 
+<div class="container text-xl mx-auto py-8 px-16">
+   <p>ThunderPlains is a web developer conference that focuses on JavaScript and related tech that make the web interesting.</p>
+   <p>ThunderPlains is organized and backed by <a href="https://www.techlahoma.org">Techlahoma</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
+</div>
+<div class="container mx-auto py-8 px-4">
+  <h2>Schedule</h2>
+
+  {% for schedule in schedule %}
+  <div class="p-0 sm:p-4">
+    <h3 class="bg-purple-dark text-purple-lightest p-4 m-0 text-center">{{ schedule.start_time }}</h3>
+
+    <div class="flex flex-col md:flex-row">
+      {% if schedule.full %}
+      <div class="m-0 px-0 py-4 sm:px-4">
+        <div class="text-xl font-semibold">{{ schedule.full.title }}</div>
+
+        {% if schedule.full.speaker %}
+        <div>{{ schedule.full.speaker.name }}</div>
+        {% endif %}
+      </div>
+
+      {% else %}
+      <div class="flex flex-col w-full md:w-1/2 m-0">
+        <div class="bg-purple-lighter text-center m-0 p-2">Room 9</div>
+        <div class="px-0 py-4 sm:px-4">
+          <div class="text-xl font-semibold">{{ schedule.track_a.title }}</div>
+
+          {% if schedule.track_a.speaker %}
+          <div>{{ schedule.track_a.speaker.name }}</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if schedule.track_b %}
+      <div class="flex flex-col w-full md:w-1/2 m-0">
+        <div class="bg-yellow-light text-center m-0 p-2">Room 10</div>
+        <div class="px-0 py-4 sm:px-4">
+          <div class="text-xl font-semibold">{{ schedule.track_b.title }}</div>
+
+          {% if schedule.track_b.speaker %}
+          <div>{{ schedule.track_b.speaker.name }}</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
