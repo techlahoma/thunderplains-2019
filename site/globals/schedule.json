@@ -44,7 +44,7 @@
     "track_b": {
       "title": "Let's Get JAMming: Static Site Generators",
       "speaker": {
-        "name": "Gabi Dombrowski",
+        "name": "Dennis Stepp",
         "twitter": null
       }
     }
@@ -115,7 +115,11 @@
   {
     "start_time": "3:40pm",
     "track_a": {
-      "title": "Empathtic Design Systems"
+      "title": "Empathtic Design Systems",
+      "speaker": {
+        "name": "Jennifer Wong",
+        "twitter": null
+      }
     },
     "track_b": {
       "title": "Lightning Talks"
@@ -124,7 +128,11 @@
   {
     "start_time": "4:30pm",
     "track_a": {
-      "title": "A Crash Course on Worker Threads"
+      "title": "A Crash Course on Worker Threads",
+      "speaker": {
+        "name": "Rich Trott",
+        "twitter": null
+      }
     },
     "track_b": {
       "title": "Lightning Talks"
