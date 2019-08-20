@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Gold Sponsors",
+    "level": "gold",
+    "tailwind_color": "yellow-dark",
+    "img_width": 325,
+    "companies": [
+      {
+        "name": "Tailwind",
+        "a_href": "https://www.tailwindapp.com",
+        "img_src": "tailwind.png"
+      }
+    ]
+  },
+  {
+    "title": "Silver Sponsors",
+    "level": "silver",
+    "tailwind_color": "grey",
+    "img_width": 250,
+    "companies": [
+      {
+        "name": "Clevyr",
+        "a_href": "https://clevyr.com",
+        "img_src": "clevyr.png"
+      },
+      {
+        "name": "Addison Group",
+        "a_href": "https://addisongroup.com",
+        "img_src": "addison.png"
+      }
+    ]
+  },
+  {
+    "title": "Bronze Sponsors",
+    "level": "bronze",
+    "tailwind_color": "yellow-darker",
+    "img_width": 200,
+    "companies": [
+      {
+        "name": "Robert-Half Technology",
+        "a_href": "https://www.roberthalf.com/work-with-us/our-services/technology",
+        "img_src": "rht.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Local/Community Sponsors",
+    "level": "local",
+    "tailwind_color": "green-darkest",
+    "img_width": 175,
+    "companies": [
+      {
+        "name": "Bitness Labs",
+        "a_href": "https://bitnesslabs.com",
+        "img_src": "bitness-labs.png"
+      }
+    ]
+  }
+]
