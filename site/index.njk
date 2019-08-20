@@ -55,5 +55,31 @@ title: ThunderPlains 2019
     </div>
   </div>
   {% endfor %}
+</div>
 
+
+<div class="container mx-auto py-8 px-4">
+  <h2>Sponsors</h2>
+
+  {% for sponsorLevel in sponsors %}
+
+  <div class="m-4">
+    <h3 class="text-center">{{ sponsorLevel.title }}</h3>
+    <div class="container flex flex-row flex-wrap items-center justify-center content-center">
+    {% for sponsor in sponsorLevel.companies %}
+      <div class="flex-1 border-4 border-{{ sponsorLevel.tailwind_color }} text-center w-full md:w-1/2 m-4 p-4">
+        <a href="{{ sponsor.a_href }}" target="_blank">
+          <img src="/images/sponsor-logos/{{ sponsor.img_src }}" width="{{ sponsorLevel.img_width }}" /><br />{{ sponsor.name }}
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <p class="text-center">
+    <a href="https://www.dropbox.com/s/7a3ram1o2q1mbde/ThunderPlains-2019-Sponsorship-Prospectus.pdf" class="block sm:inline-block mb-3 sm:mb-0 no-underline text-2xl bg-transparent hover:bg-purple-light text-purple-light font-semibold hover:text-white py-2 px-4 mx-1 border-2 border-purple-light hover:border-transparent rounded">
+      Want To Sponsor ThunderPlains?
+    </a>
+  </p>
 </div>
