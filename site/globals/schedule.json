@@ -139,7 +139,7 @@
     }
   },
   {
-    "start_time": "5:30pm",
+    "start_time": "5:20pm",
     "full": {
       "title": "Crypto: 500 BC to Quantum Computing",
       "speaker": {
@@ -149,7 +149,13 @@
     }
   },
   {
-    "start_time": "6:00pm",
+    "start_time": "6:10pm",
+    "full": {
+      "title": "Closing Remarks"
+    }
+  },
+  {
+    "start_time": "6:30pm",
     "full": {
       "title": "Afterparty"
     }
