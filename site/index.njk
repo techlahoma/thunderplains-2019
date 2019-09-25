@@ -36,7 +36,7 @@ title: ThunderPlains 2019
 
       {% else %}
       <div class="flex flex-col w-full md:w-1/2 m-0">
-        <div class="bg-purple-lighter text-center m-0 p-2">Room 9</div>
+        <div class="bg-purple-lighter text-center m-0 p-2">Room 16 (Upstairs)</div>
         <div class="px-0 py-4 sm:px-4">
           <div class="text-xl font-semibold">{{ schedule.track_a.title }}</div>
 
@@ -49,7 +49,7 @@ title: ThunderPlains 2019
 
       {% if schedule.track_b %}
       <div class="flex flex-col w-full md:w-1/2 m-0">
-        <div class="bg-yellow-light text-center m-0 p-2">Room 10</div>
+        <div class="bg-yellow-light text-center m-0 p-2">Room 17 (Upstairs)</div>
         <div class="px-0 py-4 sm:px-4">
           <div class="text-xl font-semibold">{{ schedule.track_b.title }}</div>
 
@@ -72,9 +72,9 @@ title: ThunderPlains 2019
 
   <div class="m-4">
     <h3 class="text-center">{{ sponsorLevel.title }}</h3>
-    <div class="container flex flex-row flex-wrap items-center justify-center content-center">
+    <div class="container flex flex-row flex-wrap items-center justify-between content-center">
     {% for sponsor in sponsorLevel.companies %}
-      <div class="flex-1 border-4 border-{{ sponsorLevel.tailwind_color }} text-center w-full md:w-1/2 m-4 p-4">
+      <div class="flex-1 border-4 border-{{ sponsorLevel.tailwind_color }} text-center w-full md:w-1/2 m-4 p-4" style="min-width: {{ sponsorLevel.img_width }}px">
         <a href="{{ sponsor.a_href }}" target="_blank">
           <img src="/images/sponsor-logos/{{ sponsor.img_src }}" width="{{ sponsorLevel.img_width }}" /><br />{{ sponsor.name }}
         </a>
@@ -88,5 +88,26 @@ title: ThunderPlains 2019
     <a href="https://www.dropbox.com/s/7a3ram1o2q1mbde/ThunderPlains-2019-Sponsorship-Prospectus.pdf" class="block sm:inline-block mb-3 sm:mb-0 no-underline text-2xl bg-transparent hover:bg-purple-light text-purple-light font-semibold hover:text-white py-2 px-4 mx-1 border-2 border-purple-light hover:border-transparent rounded">
       Want To Sponsor ThunderPlains?
     </a>
+  </p>
+</div>
+
+<div class="container text-xl mx-auto py-8 px-16">
+  <h2 id="location">Location</h2>
+  <p>ThunderPlains 2019 will be held at the <a
+  href="http://www.coxconventioncenter.com/">Cox Convention Center</a> in
+  Oklahoma City on October 22nd, 2019.</p>
+
+  <p class="my-4">
+    <address>
+    Cox Convention Center<br />
+    1 Myriad Gardens<br />
+    Oklahoma City, Oklahoma 73102
+    </address>
+  </p>
+
+  <p class="my-4">
+    ThunderPlains will occupy Room 16 and Room 17 of the Cox Cenvention Center.
+    Both of these rooms are upstairs, closest to the entrance off Sheridan
+    Avenue. <a href="http://www.coxconventioncenter.com/facilities/meeting-rooms-ballroom">View pictures / get more information</a>
   </p>
 </div>
