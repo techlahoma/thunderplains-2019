@@ -10,6 +10,11 @@
         "name": "Tailwind",
         "a_href": "https://www.tailwindapp.com",
         "img_src": "tailwind.png"
+      },
+      {
+        "name": "Heartland Payment Systems",
+        "a_href": "https://www.heartlandpaymentsystems.com",
+        "img_src": "heartland.png"
       }
     ]
   },
@@ -86,6 +91,11 @@
         "name": "Bitness Labs",
         "a_href": "https://bitnesslabs.com",
         "img_src": "bitness-labs.png"
+      },
+      {
+        "name": "Simiancraft",
+        "a_href": "https://www.simiancraft.com",
+        "img_src": "simiancraft.png"
       }
     ]
   }
