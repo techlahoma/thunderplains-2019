@@ -30,7 +30,11 @@ title: ThunderPlains 2019
         <div class="text-xl font-semibold">{{ schedule.full.title }}</div>
 
         {% if schedule.full.speaker %}
-        <div>{{ schedule.full.speaker.name }}</div>
+          {% if schedule.full.speaker.twitter %}
+          <div><a href="https://www.twitter.com/{{ schedule.full.speaker.twitter }}">{{ schedule.full.speaker.name }}</a></div>
+          {% else %}
+          <div>{{ schedule.full.speaker.name }}</div>
+          {% endif %}
         {% endif %}
       </div>
 
@@ -41,7 +45,11 @@ title: ThunderPlains 2019
           <div class="text-xl font-semibold">{{ schedule.track_a.title }}</div>
 
           {% if schedule.track_a.speaker %}
-          <div>{{ schedule.track_a.speaker.name }}</div>
+            {% if schedule.track_a.speaker.twitter %}
+            <div><a href="https://www.twitter.com/{{ schedule.track_a.speaker.twitter }}">{{ schedule.track_a.speaker.name }}</a></div>
+            {% else %}
+            <div>{{ schedule.track_a.speaker.name }}</div>
+            {% endif %}
           {% endif %}
         </div>
       </div>
@@ -54,7 +62,11 @@ title: ThunderPlains 2019
           <div class="text-xl font-semibold">{{ schedule.track_b.title }}</div>
 
           {% if schedule.track_b.speaker %}
-          <div>{{ schedule.track_b.speaker.name }}</div>
+            {% if schedule.track_b.speaker.twitter %}
+            <div><a href="https://www.twitter.com/{{ schedule.track_b.speaker.twitter }}">{{ schedule.track_b.speaker.name }}</a></div>
+            {% else %}
+            <div>{{ schedule.track_b.speaker.name }}</div>
+            {% endif %}
           {% endif %}
         </div>
       </div>
