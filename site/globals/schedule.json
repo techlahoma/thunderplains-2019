@@ -45,7 +45,7 @@
       "title": "Let's Get JAMming: Static Site Generators",
       "speaker": {
         "name": "Dennis Stepp",
-        "twitter": null
+        "twitter": "destepp"
       }
     }
   },
@@ -55,14 +55,14 @@
       "title": "Authentication for the REST of us",
       "speaker": {
         "name": "Divya Sasidharan",
-        "twitter": null
+        "twitter": "shortdiv"
       }
     },
     "track_b": {
       "title": "The Mentor Playbook",
       "speaker": {
         "name": "Gabi Dombrowski",
-        "twitter": null
+        "twitter": "gabdom"
       }
     }
   },
@@ -78,14 +78,14 @@
       "title": "Going Beyond Progressive Web Apps With Service Workers",
       "speaker": {
         "name": "Trent Willis",
-        "twitter": null
+        "twitter": "trentmwillis"
       }
     },
     "track_b": {
       "title": "Gaining Control with the Web Animations API",
       "speaker": {
         "name": "Daniel Wilson",
-        "twitter": null
+        "twitter": "dancwilson"
       }
     }
   },
@@ -95,14 +95,14 @@
       "title": "State Machines",
       "speaker": {
         "name": "Gerardo Gonzalez",
-        "twitter": null
+        "twitter": "GonzalezJerry16"
       }
     },
     "track_b": {
       "title": "Web Audio Made Easy with Howler.js",
       "speaker": {
         "name": "James Simpson",
-        "twitter": null
+        "twitter": "GoldFireStudios"
       }
     }
   },
@@ -118,7 +118,7 @@
       "title": "Empathetic Design Systems",
       "speaker": {
         "name": "Jennifer Wong",
-        "twitter": null
+        "twitter": "mybluewristband"
       }
     },
     "track_b": {
@@ -131,7 +131,7 @@
       "title": "A Crash Course on Worker Threads",
       "speaker": {
         "name": "Rich Trott",
-        "twitter": null
+        "twitter": "trott"
       }
     },
     "track_b": {
@@ -144,7 +144,7 @@
       "title": "Crypto: 500 BC to Quantum Computing",
       "speaker": {
         "name": "Luke Crouch",
-        "twitter": null
+        "twitter": "groovecoder"
       }
     }
   },
