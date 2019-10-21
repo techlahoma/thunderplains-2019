@@ -11,7 +11,7 @@
       "title": "The State of Node Core",
       "speaker": {
         "name": "Colin Ihrig",
-        "twitter": "cjihrig"
+        "twitter": "href=https://twitter.com/cjihrig"
       }
     }
   },
@@ -21,14 +21,14 @@
       "title": "Delicious JavaScript: Delectable Explanations of the Power of JS",
       "speaker": {
         "name": "Adrienne Tacke",
-        "twitter": "adriennetacke"
+        "twitter": "href=https://twitter.com/adriennetacke"
       }
     },
     "track_b": {
       "title": "Kubernetes for Developers",
       "speaker": {
         "name": "Jeff French",
-        "twitter": "jeff_french"
+        "twitter": "href=https://twitter.com/jeff_french"
       }
     }
   },
@@ -38,14 +38,14 @@
       "title": "Off The Hook - React Hooks",
       "speaker": {
         "name": "Logan Huskins",
-        "twitter": "logan_huskins"
+        "twitter": "href=https://twitter.com/LoganHuskins"
       }
     },
     "track_b": {
       "title": "Let's Get JAMming: Static Site Generators",
       "speaker": {
         "name": "Dennis Stepp",
-        "twitter": null
+        "twitter": "href=https://twitter.com/destepp"
       }
     }
   },
@@ -55,14 +55,14 @@
       "title": "Authentication for the REST of us",
       "speaker": {
         "name": "Divya Sasidharan",
-        "twitter": null
+        "twitter": "href=https://twitter.com/shortdiv"
       }
     },
     "track_b": {
       "title": "The Mentor Playbook",
       "speaker": {
         "name": "Gabi Dombrowski",
-        "twitter": null
+        "twitter": "href=https://twitter.com/gabdom"
       }
     }
   },
@@ -78,14 +78,14 @@
       "title": "Going Beyond Progressive Web Apps With Service Workers",
       "speaker": {
         "name": "Trent Willis",
-        "twitter": null
+        "twitter": "href=https://twitter.com/trentmwillis"
       }
     },
     "track_b": {
       "title": "Gaining Control with the Web Animations API",
       "speaker": {
         "name": "Daniel Wilson",
-        "twitter": null
+        "twitter": "href=https://twitter.com/dancwilson"
       }
     }
   },
@@ -95,14 +95,14 @@
       "title": "State Machines",
       "speaker": {
         "name": "Gerardo Gonzalez",
-        "twitter": null
+        "twitter": "href=https://twitter.com/GonzalezJerry16"
       }
     },
     "track_b": {
       "title": "Web Audio Made Easy with Howler.js",
       "speaker": {
         "name": "James Simpson",
-        "twitter": null
+        "twitter": "href=https://twitter.com/GoldFireStudios"
       }
     }
   },
@@ -118,7 +118,7 @@
       "title": "Empathetic Design Systems",
       "speaker": {
         "name": "Jennifer Wong",
-        "twitter": null
+        "twitter": "href=https://twitter.com/mybluewristband"
       }
     },
     "track_b": {
@@ -131,7 +131,7 @@
       "title": "A Crash Course on Worker Threads",
       "speaker": {
         "name": "Rich Trott",
-        "twitter": null
+        "twitter": "href=https://twitter.com/trott"
       }
     },
     "track_b": {
@@ -144,7 +144,7 @@
       "title": "Crypto: 500 BC to Quantum Computing",
       "speaker": {
         "name": "Luke Crouch",
-        "twitter": null
+        "twitter": "href=https://twitter.com/groovecoder"
       }
     }
   },
